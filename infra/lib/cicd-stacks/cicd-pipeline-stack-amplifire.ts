@@ -22,7 +22,7 @@ import {
   SimpleSynthAction,
 } from '@aws-cdk/pipelines';
 import { config, Organizations, SharedIniFileCredentials } from 'aws-sdk';
-import { NeosAmplifireInfraStack } from '../gruv-neos-infra-amplifire-stack';
+import { NeosAmplifireInfraStack } from '../neos-infra-amplifire-stack';
 
 export class AmplifireStage extends Stage {
   public readonly appStackID: CfnOutput;
